@@ -1,0 +1,38 @@
+/*Geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg-overlay: rgba(20, 15, 10, 0.25);
+    --color-text-light: #ffffff;
+    --color-text-sub: #f0eae1;
+    --color-btn-bg: #2d3e35;
+    --color-btn-hoover: #1e2b24;
+    --color-bg-page: #f7f3ec;
+    --color-text-dark: #3a322c;
+    --font-serif: 'Cormorant Garant', serif;
+    --font-sans: 'Montserrat', sans-serif;
+}
+
+/*Corpo da Pagina*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-sans);
+    color: var(--color-text-light);
+    overflow-x: hidden;
+    background-color: var(--color-bg-page);
+}
+
+/*Cabecalho*/
+
+.navbar {
+    
+}
